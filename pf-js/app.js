@@ -99,10 +99,10 @@ console.log ("Tu edad es: "+ age)
 if (age >= 18){
     alert ("Bienvenido eres mayor de edad 👍");
 }
-else if (age >=6) {
+else if (age >=6 && age <= 17) {
  alert(" Felicidades entraste en la primaria")
 }
-else if (age >= 1){
+else if (age >= 1 && age <= 5){
     alert("Felicidades estas en el quinder")
 }
 else {
